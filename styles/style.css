@@ -18,9 +18,12 @@ html, body {
 /* header */
 
 header div#header-background {
-    padding: 60px 0px;
     background: linear-gradient(transparent, black), url(../images/header-background.jpg) center center / cover no-repeat;
     text-align: center;
+}
+
+header div#header-background > picture > img {
+    margin: 60px 0px;
 }
 
 header nav {
