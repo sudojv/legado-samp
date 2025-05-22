@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root {
+    --samp-color: #E77817;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+/* header */
+
+header div#header-background {
+    padding: 60px;
+    background: linear-gradient(transparent, black), url(../images/header-background.jpg) center center / cover no-repeat;
+    text-align: center;
+}
+
+header nav {
+    background-color: black;
+}
+
+header ul {
+    display: none;
+}
+
+header nav > span#hamburger {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+header li > a {
+    display: block;
+    border-top: 1px solid rgb(25, 25, 25);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li > a:hover, #hamburger:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+/* main */
+
+main {
+    min-width: 300px;
+    max-width: 805px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1, h2, h3 {
+    margin-bottom: 0.5em;
+    color: var(--samp-color);
+    text-shadow: 1px 1px 1px black;
+}
+
+main p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main p#author {
+    margin-top: 2em;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+main p#author a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main p#author a:hover {
+    text-decoration: underline;
+}
+
+main hr {
+    margin: 1em auto 2em auto;
+}
+
+main img {
+    display: block;
+    margin: 1.5em auto 2em auto;
+}
+
+main div#image-merge {
+    width: 100%;
+    height: 180px;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+main div#image-merge img {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+main div#image-merge img:first-child {
+    float: left;
+}
+
+main div#image-merge img:last-child {
+    float: right;
+}
+
+/* footer */
+
+footer {
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

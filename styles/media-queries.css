@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    header nav > span#hamburger {
+        display: none;
+    }
+
+    header ul {
+        display: block;
+    }
+    
+    header li {
+        display: inline-block;
+    }
+    
+    header li > a {
+        width: 100px;
+        border: none;
+    }
+
+    main div#image-merge {
+        height: 300px;
+    }
+}
