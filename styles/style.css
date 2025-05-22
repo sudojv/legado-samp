@@ -57,7 +57,7 @@ header li > a:hover, #hamburger:hover {
 
 main {
     min-width: 300px;
-    max-width: 805px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
@@ -94,16 +94,14 @@ main hr {
     margin: 1em auto 2em auto;
 }
 
-main div#image1 {
-    width: 450px;
-    height: 280px;
+main img {
+    display: block;
+    width: 100%;
     margin: 2em auto;
 }
 
-main div#image2 {
-    width: 450px;
-    height: 338px;
-    margin: 2em auto;
+main img#screenshot {
+    max-width: 450px;
 }
 
 main div#image-merge {
