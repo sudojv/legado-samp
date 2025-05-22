@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 600px) {
+    main h1 {
+        font-size: 2em;
+    }
+
+    main div#image-merge {
+        height: 300px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     header nav > span#hamburger {
         display: none;
@@ -16,23 +26,5 @@
     header li > a {
         width: 100px;
         border: none;
-    }
-
-    main div#image-merge {
-        height: 300px;
-    }
-}
-/*
-@media screen and (min-width: 640px) {
-    main div#image1 {
-        width: 600px;
-        height: 360px;
-    }
-}
-
-@media screen and (min-width: 840px) {
-    main div#image1 {
-        width: 800px;
-        height: 480px;
     }
 }
